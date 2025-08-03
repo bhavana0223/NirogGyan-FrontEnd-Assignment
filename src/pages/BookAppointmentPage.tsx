@@ -3,7 +3,7 @@ import React, { useState, ChangeEvent, FormEvent } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { mockDoctors } from "../data/mockDoctors";
 import { Form, Button, Alert } from "react-bootstrap";
-import type { Doctor } from "../types";
+
 
 interface FormData {
   patientName: string;
